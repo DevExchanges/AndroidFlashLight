@@ -17,4 +17,25 @@
         android:background="@null"
         android:contentDescription="@null"
         android:src="@drawable/switch_off" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSwitch"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="http://www.devexchanges.info/"
+            android:textStyle="bold" />
+    </LinearLayout>
 </RelativeLayout>
